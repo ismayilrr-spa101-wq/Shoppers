@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppers</title>
+
+    <link rel="stylesheet" href="~/assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="top-header">
+            <div class="top-container">
+
+                <div class="top-container_src">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="search">
+                </div>
+
+                <div class="top-container_logo">
+                    <span>SHOPPERS</span>
+                </div>
+
+                <ul class="top-container_icons">
+                    <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+        </div>
+
+        <div class="bottom-header">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Catalogue</a></li>
+                    <li><a href="#">Arrivals</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+    <footer class="footer">© 2025 All rights reserved | This template is made with ♥ by Colorlib</footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// header
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & .top-header {
+        width: 100%;
+
+        .top-container {
+
+            padding: 15px;
+            width: 95%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            &_logo {
+                padding: 7px;
+                border: solid 2px black;
+            }
+
+            &_icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                li {
+
+                    list-style: none;
+
+                    a {
+                        color: rgb(132, 144, 148);
+                    }
+                }
+            }
+
+            .fa-bars {
+                display: none;
+            }
+
+        }
+    }
+
+    & .bottom-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        nav ul {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            gap: 10px;
+
+            a {
+                color: rgb(107, 102, 102);
+                text-decoration: none;
+
+            }
+        }
+    }
+}
+
+// intro-sec
+#intro-sec {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+    & .intro-container {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+
+
+        h5 {
+            width: 80%;
+            font-family: sans-serif;
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        p {
+            width: 60%;
+            line-height: 30px;
+        }
+
+        &_btn {
+            width: 80%;
+
+            button {
+                background-color: blue;
+                color: aliceblue;
+                border: none;
+                padding: 10px 25px;
+                border-radius: 6px;
+            }
+        }
+    }
+}
+
+// info-sec
+#info-sec {
+    margin: 30px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .info-container {
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        &_card {
+            width: 27%;
+            display: flex;
+            gap: 6px;
+
+
+        }
+
+    }
+}
+
+// fashion-sec
+#fashion-sec {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    .fashion-container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        &_card {
+            background-color: red;
+            height: 70vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+            .text {
+                position: absolute;
+                bottom: 3%;
+                left: 2%;
+                color: aliceblue;
+
+                span {
+                    font-family: sans-serif;
+                    font-size: 20px;
+                    color: white;
+                }
+
+                h6 {
+                    font-family: serif;
+                    font-size: 16px;
+                    color: white;
+
+                }
+
+            }
+        }
+
+        .card1 {
+            width: 30%;
+            background-image: url(https://preview.colorlib.com/theme/shoppers/images/men.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card2 {
+            width: 30%;
+            background-image: url(https://preview.colorlib.com/theme/shoppers/images/children.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card3 {
+            width: 30%;
+            background-image: url(https://preview.colorlib.com/theme/shoppers/images/women.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+// products-sec
+#product-sec {
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+
+    .top-sec {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h1 {
+            font-family: serif;
+            font-size: 32px;
+        }
+    }
+
+    .bottom-sec {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-container {
+            width: 70%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            &_card {
+                width: 27%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 2px;
+                box-shadow: 0 4px 10px rgba($color: #8c8484, $alpha: 1.0);
+
+                .image {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    text-align: center;
+
+                    h5 {
+                        color: rgb(103, 103, 187);
+                        font-family: sans-serif;
+                        font-size: 20px;
+                        font-weight: 300;
+                    }
+
+                    p {
+                        font-family: serif;
+                        font-size: 16px;
+                        color: gray;
+                    }
+
+                    span {
+                        color: rgb(103, 103, 187);
+                        font-family: serif;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+// sale-sec
+#sale-sec {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .top-sec {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-sec {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-container {
+            width: 90%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &_image {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 70%;
+
+                }
+            }
+
+            &_info {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    h5 {
+                        font-family: serif;
+                        font-size: 22px;
+                        color: rgb(126, 126, 198);
+                    }
+
+                    span {
+                        font-family: serif;
+                        font-size: 16px;
+                        color: #8c8484;
+
+                    }
+
+                    p {
+                        font-family: serif;
+                        font-size: 16px;
+                        color: #8c8484;
+                    }
+
+
+                }
+
+                .btn button {
+                    padding: 10px 20px;
+                    color: rgb(255, 255, 255);
+                    background-color: rgb(93, 93, 169);
+                    border: none;
+                    &:hover{
+                        background-color: #f8f9fa;
+                        color: rgb(139, 139, 196);
+                       
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #8c8c8c;
+    background: #f8f9fa;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    header {
+        & .top-header {
+            .top-container {
+                .fa-bars {
+                    display: block;
+                }
+            }
+        }
+
+        & .bottom-header {
+            nav ul {
+                display: none;
+            }
+        }
+    }
+
+    #info-sec {
+
+
+        & .info-container {
+
+
+            &_card {
+                width: 100%;
+                display: flex;
+                gap: 6px;
+
+
+            }
+
+        }
+    }
+
+    #product-sec {
+        .bottom-sec {
+            &-container {
+                &_card {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:923px) {
+    header {
+        & .top-header {
+            .top-container {
+                .fa-bars {
+                    display: block;
+                }
+            }
+        }
+
+        & .bottom-header {
+            nav ul {
+                display: none;
+            }
+        }
+    }
+
+    #info-sec {
+
+
+        & .info-container {
+
+
+            &_card {
+                width: 100%;
+                display: flex;
+                gap: 6px;
+
+
+            }
+
+        }
+    }
+
+    #product-sec {
+        .bottom-sec {
+            &-container {
+                &_card {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:924px) {}

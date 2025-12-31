@@ -1,0 +1,5 @@
+wwwroot\asseets\css\main.css
+wwwroot\asseets\js\main.js
+wwwroot\asseets\scss\main.scss
+wwwroot\asseets\scss\pages\_home.scss
+wwwroot\assets\css\main.css

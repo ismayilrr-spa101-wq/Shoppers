@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Skoppers\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|c:\\users\\user\\source\\repos\\skoppers\\skoppers\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|solutionrelative:skoppers\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|c:\\users\\user\\source\\repos\\skoppers\\skoppers\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|solutionrelative:skoppers\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|c:\\users\\user\\source\\repos\\skoppers\\skoppers\\models\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|solutionrelative:skoppers\\models\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|c:\\users\\user\\source\\repos\\skoppers\\skoppers\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|solutionrelative:skoppers\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|c:\\users\\user\\source\\repos\\skoppers\\skoppers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|solutionrelative:skoppers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|c:\\users\\user\\source\\repos\\skoppers\\skoppers\\data\\shoppersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|solutionrelative:skoppers\\data\\shoppersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|c:\\users\\user\\source\\repos\\skoppers\\skoppers\\migrations\\20260105172203_createproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DFE346E-D816-4113-8BFE-FA36E1BFC69F}|Skoppers\\Skoppers.csproj|solutionrelative:skoppers\\migrations\\20260105172203_createproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +38,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Skoppers\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Skoppers\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T17:52:05.782Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Skoppers\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Skoppers\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwHUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-05T17:32:01.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260105172203_CreateProductTable.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Migrations\\20260105172203_CreateProductTable.cs",
+              "RelativeDocumentMoniker": "Skoppers\\Migrations\\20260105172203_CreateProductTable.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Migrations\\20260105172203_CreateProductTable.cs",
+              "RelativeToolTip": "Skoppers\\Migrations\\20260105172203_CreateProductTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T17:22:03.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Skoppers\\Models\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Models\\BaseModel.cs",
+              "RelativeToolTip": "Skoppers\\Models\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T14:55:17.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Models\\Product\\Product.cs",
+              "RelativeDocumentMoniker": "Skoppers\\Models\\Product\\Product.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Models\\Product\\Product.cs",
+              "RelativeToolTip": "Skoppers\\Models\\Product\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T14:53:59.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppersDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Data\\ShoppersDBcontext.cs",
+              "RelativeDocumentMoniker": "Skoppers\\Data\\ShoppersDBcontext.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Data\\ShoppersDBcontext.cs",
+              "RelativeToolTip": "Skoppers\\Data\\ShoppersDBcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T14:03:27.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Program.cs",
               "RelativeDocumentMoniker": "Skoppers\\Program.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\Skoppers\\Skoppers\\Program.cs",
               "RelativeToolTip": "Skoppers\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T18:44:29.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-12-31T18:44:29.658Z"
             }
           ]
         }

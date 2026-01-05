@@ -1,4 +1,7 @@
 wwwroot\asseets\css\main.css
+wwwroot\asseets\images\cloth_1.jpg
+wwwroot\asseets\images\cloth_2.jpg
+wwwroot\asseets\images\shoe_1.jpg
 wwwroot\asseets\js\main.js
 wwwroot\asseets\scss\main.scss
 wwwroot\asseets\scss\pages\_home.scss

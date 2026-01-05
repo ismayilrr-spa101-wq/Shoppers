@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Skoppers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a4b46b0d2737f7705ccb2f7315ba29f1a09d45a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+623812adeca3f5e29ab32ae77e81c80a27560194")]
 [assembly: System.Reflection.AssemblyProductAttribute("Skoppers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Skoppers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
